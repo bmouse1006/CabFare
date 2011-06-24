@@ -1,0 +1,21 @@
+/* 
+   Localizable.strings
+   CabFare
+
+   Created by Jin Jin on 10-10-9.
+   Copyright 2010 __MyCompanyName__. All rights reserved.
+   
+   for Chinese
+ */
+
+//Country
+"USA" = "美国";
+"China" = "中国";
+//City
+"Hangzhou" = "杭州";
+"Boston" = "波士顿";
+
+"AutoSwitchCity" = "自动切换城市";
+"Standard" = "标准";
+"Satellite" = "卫星";
+"Hybrid" = "混合";

@@ -1,0 +1,19 @@
+//
+// Prefix header for all source files of the 'CabFare' target in the 'CabFare' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#import "NotificationNames.h"
+
+#define __IPHONE_OS_VERSION_MAX_ALLOWED     __IPHONE_4_1
+#define __IPHONE_OS_VERSION_MIN_REQUIRED	__IPHONE_3_0
+
+#ifdef DEBUG_MODE
+#define DebugLog( s, ... ) NSLog( @"<%p> %@", self, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+#define DebugLog( s, ... ) 
+#endif

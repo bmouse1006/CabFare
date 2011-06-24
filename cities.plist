@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Boston</key>
+	<dict>
+		<key>latitude</key>
+		<real>42.3577</real>
+		<key>longtitude</key>
+		<real>-71.0617</real>
+		<key>country</key>
+		<string>USA</string>
+	</dict>
+	<key>Hangzhou</key>
+	<dict>
+		<key>country</key>
+		<string>China</string>
+		<key>latitude</key>
+		<real>30.2667</real>
+		<key>longtitude</key>
+		<real>120.2</real>
+		<key>currencySign</key>
+		<string>CNY</string>
+		<key>additionalFare</key>
+		<array/>
+		<key>startMileage</key>
+		<integer>5</integer>
+		<key>startFare</key>
+		<integer>10</integer>
+		<key>overMileageList</key>
+		<array>
+			<dict>
+				<key>overMileage</key>
+				<integer>3</integer>
+				<key>overFare</key>
+				<real>0.5</real>
+			</dict>
+			<dict>
+				<key>overMileage</key>
+				<integer>5</integer>
+				<key>overFare</key>
+				<real>0.3</real>
+			</dict>
+			<dict>
+				<key>overMileage</key>
+				<integer>999999</integer>
+				<key>overFare</key>
+				<real>0.2</real>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>
